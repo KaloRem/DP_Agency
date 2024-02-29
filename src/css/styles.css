@@ -5,11 +5,11 @@
   |============================
 */
 
-@import url('reset.css');
-@import url('header.css');
-@import url('first-section.css');
-@import url('second-section.css');
-@import url('footer.css');
+@import url('./reset.css');
+@import url('./header.css');
+@import url('./first-section.css');
+@import url('./second-section.css');
+@import url('./footer.css');
 
 :root {
   --primary_background_color: #1e1823;
