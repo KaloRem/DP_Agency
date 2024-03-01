@@ -12,10 +12,13 @@
 @import url('./footer.css');
 
 :root {
-  --primary_background_color: #1e1823;
-  --primary_text_color: #ffffff;
-  --accent_color: #fd9222;
-  --secondary_color: #111111;
+  --primary-color: #172755;
+  --secondary-color: #ef2a82;
+  --additional-color: #0088f0;
+  --primary-text-color: #172755;
+  --secondary-text-color: #8794ba;
+  --body-color: #eeeef6;
+  --white-color: #ffffff;
 
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
@@ -32,10 +35,14 @@
   -webkit-text-size-adjust: 100%;
 }
 
-.container {
-  max-width: 375px;
+/* .container {
+  max-width: 1600px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
+} */
+
+.container {
+  width: 100%;
 }
