@@ -24,42 +24,45 @@
     <!-- Title/logo -->
     <title>DP Agency</title>
     <link rel="icon" type="image/x-icon" href="/DP_Agency/assets/logo-483fa1c4.svg" />
-    <link rel="stylesheet" href="/DP_Agency/assets/index-7565273e.css">
+    <link rel="stylesheet" href="/DP_Agency/assets/index-9dbad2c5.css">
   </head>
 
   <body>
     <!-- Header -->
-<header>
+<header class="header">
   <div class="container">
     <!-- Top part -->
-    <nav>
-      <ul>
-        <li>
-          <svg width="30" height="30">
-            <use href="../svg/sprite.svg#icon-logo-main"></use>
-          </svg>
-          <h1>DP Agency</h1>
-        </li>
-        <li><a href="tel:+48574457537">Call us</a></li>
-      </ul>
+    <nav class="header_navigation">
+      <div class="logo_container">
+        <svg width="30" height="30">
+          <use href="../svg/sprite.svg#icon-logo-main"></use>
+        </svg>
+        <h1>DP Agency</h1>
+      </div>
+      <a class="call_us_button" href="tel:+48574457537">Call us</a>
     </nav>
 
     <!-- Main information -->
-    <ul>
+    <ul class="main_information_list">
       <li>
         <img
+          class="main-screen"
           src="../img/main-screen.jpg"
           alt="Main screen with type of statistics"
         />
       </li>
       <li>
-        <h2>Monitor your business on real-time dashboard</h2>
-        <p>
+        <h2 class="main_information_title">
+          Monitor your business on real-time dashboard
+        </h2>
+        <p class="main_information_desc">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum
           nisi aliquet volutpat pellentesque volutpat est.
         </p>
       </li>
-      <li><button>Write to us</button></li>
+      <li class="write_to_us_btn_container">
+        <button class="write_to_us_btn">Write to us</button>
+      </li>
     </ul>
   </div>
 </header>
@@ -84,7 +87,7 @@
       <!-- Monitoring -->
       <li>
         <svg width="60" height="60">
-          <use href="../svg/sprite.svg#icon-Icon-planning"></use>
+          <use href="../svg/sprite.svg#icon-planning"></use>
         </svg>
         <div>
           <h4>Monitoring 24/7</h4>
@@ -98,7 +101,7 @@
       <!-- Widget -->
       <li>
         <svg width="60" height="60">
-          <use href="../svg/sprite.svg#icon-Icon-computer"></use>
+          <use href="../svg/sprite.svg#icon-computer"></use>
         </svg>
         <div>
           <h4>Widget System</h4>
@@ -112,7 +115,7 @@
       <!-- Perfomance -->
       <li>
         <svg width="60" height="60">
-          <use href="../svg/sprite.svg#icon-Icon-speed"></use>
+          <use href="../svg/sprite.svg#icon-speed"></use>
         </svg>
         <div>
           <h4>Best Perfomance</h4>
@@ -192,6 +195,84 @@
         aliquet volutpat pellentesque volutpat est.
       </p>
     </div>
+
+    <ul>
+      <!-- Starter -->
+      <li>
+        <dl>
+          <dt>Starter</dt>
+          <dd>up to 3 month</dd>
+          <dt>100$</dt>
+          <dd>per month</dd>
+        </dl>
+        <button>Write to us</button>
+      </li>
+
+      <!-- Standart -->
+      <li>
+        <dl>
+          <dt>Standart</dt>
+          <dd>up to 6 month</dd>
+          <dt>300$</dt>
+          <dd>per month</dd>
+        </dl>
+        <button>Write to us</button>
+      </li>
+
+      <!-- Premium -->
+      <li>
+        <dl>
+          <dt>Premium</dt>
+          <dd>up to 12 month</dd>
+          <dt>600$</dt>
+          <dd>per month</dd>
+        </dl>
+        <button>Write to us</button>
+      </li>
+    </ul>
+
+    <nav>
+      <ul>
+        <!-- Footer logo and title -->
+        <li>
+          <svg width="30" height="30">
+            <use href="../svg/sprite.svg#icon-logo-secondary"></use>
+          </svg>
+          <h1>DP Agency</h1>
+        </li>
+
+        <!-- facebook -->
+        <li>
+          <ul>
+            <li>
+              <a href="">
+                <svg width="20" height="20">
+                  <use href="../svg/sprite.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+
+            <!-- instagram -->
+            <li>
+              <a href="">
+                <svg width="20" height="20">
+                  <use href="../svg/sprite.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+
+            <!-- linkedin -->
+            <li>
+              <a href="">
+                <svg width="20" height="20">
+                  <use href="../svg/sprite.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
   </div>
 </footer>
 
