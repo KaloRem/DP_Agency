@@ -1,12 +1,9 @@
 /* Header */
 .header {
-  background: rgb(23, 39, 85);
-  background: linear-gradient(
-    100deg,
-    rgba(23, 39, 85, 1) 0%,
-    rgba(161, 41, 114, 1) 100%
-  );
-  clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+  background-image: url(../img/background-top.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  clip-path: polygon(0 0, 100% 0, 100% 93%, 0% 100%);
 }
 
 .header_navigation {
@@ -14,7 +11,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid var(--secondary-color);
 }
 
 .logo_container {
@@ -78,10 +75,10 @@
   color: var(--white-color);
 }
 
-/* --primary-color: #;
-  --secondary-color: #ef2a82;
-  --additional-color: #0088f0;
-  --primary-text-color: #172755;
-  --secondary-text-color: #8794ba;
-  --body-color: #eeeef6;
-  --white-color: #ffffff; */
+/* Nice background color */
+/* background: rgb(23, 39, 85);
+  background: linear-gradient(
+    100deg,
+    rgba(23, 39, 85, 1) 0%,
+    rgba(161, 41, 114, 1) 100%
+  ); */
