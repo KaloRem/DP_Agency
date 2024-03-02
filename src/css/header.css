@@ -18,7 +18,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  color: white;
+  color: var(--white-color);
 }
 
 .call_us_button {
@@ -28,7 +28,7 @@
   border-radius: 5px;
   width: 90px;
   height: 30px;
-  padding: 7px;
+  padding: 5px;
   text-align: center;
   font-weight: bold;
 }
@@ -50,15 +50,15 @@
 
 .main_information_title {
   padding-bottom: 16px;
+  line-height: 1.2;
   font-size: 26px;
   text-align: center;
-  color: white;
+  color: var(--white-color);
 }
 
 .main_information_desc {
-  line-height: 1.5;
   text-align: center;
-  color: white;
+  color: var(--secondary-text-color);
 }
 
 .write_to_us_btn_container {
