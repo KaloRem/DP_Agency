@@ -1,10 +1,4 @@
-@import url(../css/styles.css);
-
 /* First section */
-.first_section {
-  padding-top: 50px;
-}
-
 .main_features_info_list {
   display: flex;
   flex-direction: column;
@@ -13,6 +7,7 @@
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 40px;
+  padding-top: 50px;
 }
 
 .main_features_info_header {
@@ -30,10 +25,37 @@
   gap: 30px;
   padding-left: 20px;
   padding-right: 20px;
+  padding-bottom: 72px;
 }
 
 .main_features_list_item {
   display: flex;
   gap: 28px;
-  align-items: center;
+}
+
+.main_features_icon {
+  min-width: 60px;
+  min-height: 60px;
+  animation: rotateY-anim 4s linear infinite;
+}
+@keyframes rotateY-anim {
+  0% {
+    transform: rotateY(0deg);
+  }
+
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+.main_features_header {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  padding-bottom: 9px;
+  line-height: 0.8;
+}
+
+.main_features_desc {
+  color: var(--secondary-text-color);
+  line-height: 1.5;
 }

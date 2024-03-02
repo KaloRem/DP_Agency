@@ -1,0 +1,30 @@
+/* Second section */
+.second_section_main_list {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 72px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.second_section_info_container {
+  padding-bottom: 30px;
+}
+
+.second_section_info_header {
+  color: var(--primary-text-color);
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 1.2;
+  padding-bottom: 20px;
+}
+
+.second_section_info_desc {
+  color: var(--secondary-text-color);
+}
+
+.second_section_info_img {
+  border-radius: 17px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
