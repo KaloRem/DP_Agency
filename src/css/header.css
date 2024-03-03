@@ -36,7 +36,7 @@
     color 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .call_us_button:hover,
-.call_us_button:focus {
+.call_us_button:active {
   background-color: var(--white-color);
   color: var(--secondary-color);
 }
@@ -84,7 +84,7 @@
     color 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .write_to_us_btn:hover,
-.write_to_us_btn:focus {
+.write_to_us_btn:active {
   background-color: var(--white-color);
   color: var(--secondary-color);
 }
