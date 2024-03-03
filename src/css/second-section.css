@@ -1,7 +1,5 @@
 /* Second section */
 .second_section_main_list {
-  padding-left: 20px;
-  padding-right: 20px;
   padding-bottom: 72px;
   display: flex;
   flex-direction: column;
