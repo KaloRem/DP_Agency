@@ -1,6 +1,6 @@
 /* Header */
 .header {
-  background-image: url(../img/background-top.jpg);
+  background-image: url(../img/background-top-mobile.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   clip-path: polygon(0 0, 100% 0, 100% 93%, 0% 99.9%);
@@ -80,3 +80,6 @@
     rgba(23, 39, 85, 1) 0%,
     rgba(161, 41, 114, 1) 100%
   ); */
+
+@media screen and (max-width: 1600px) {
+}

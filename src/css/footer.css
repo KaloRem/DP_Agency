@@ -1,6 +1,6 @@
 /* Footer */
 .footer {
-  background-image: url(../img/background-bottom.jpg);
+  background-image: url(../img/background-bottom-mobile.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   clip-path: polygon(0 7%, 100% 0.1%, 100% 100%, 0% 100%);
@@ -71,4 +71,7 @@
 .footer_sm_list_item_svg {
   width: 30px;
   height: 30px;
+}
+
+@media screen and (max-width: 1600px) {
 }
